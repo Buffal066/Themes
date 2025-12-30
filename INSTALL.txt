@@ -1,0 +1,20 @@
+QUICK INSTALL - DO THIS NOW:
+
+1. Open Terminal (Mac) or Command Prompt (Windows)
+
+2. Run this command:
+
+   Mac:
+   cp -r /Users/gianniperugini/repo/Themes ~/.cursor/extensions/jb-dark-theme
+
+   Windows (PowerShell):
+   Copy-Item -Recurse C:\Users\gianniperugini\repo\Themes $env:USERPROFILE\.cursor\extensions\jb-dark-theme
+
+3. Restart Cursor completely (quit and reopen)
+
+4. Press Cmd+Shift+P (Mac) or Ctrl+Shift+P (Windows)
+   Type: "Preferences: Color Theme"
+   Select: "JB Dark"
+
+DONE! Your SQL keywords will be red.
+

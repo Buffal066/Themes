@@ -1,0 +1,22 @@
+{
+  "name": "jb-dark-theme",
+  "displayName": "JB Dark Theme",
+  "description": "Custom dark theme with SQL keyword colors",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "JB Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/JB_Dark.json"
+      }
+    ]
+  }
+}
+

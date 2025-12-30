@@ -1,0 +1,42 @@
+INSTALL ON WINDOWS PC:
+
+Method 1: Using File Explorer (EASIEST)
+
+1. Open File Explorer
+2. Navigate to: C:\Users\YOUR_USERNAME\.cursor\extensions\
+   (Replace YOUR_USERNAME with your Windows username)
+   
+   OR if that doesn't exist, try:
+   C:\Users\YOUR_USERNAME\.vscode\extensions\
+
+3. Copy the entire "Themes" folder from:
+   C:\Users\gianniperugini\repo\Themes
+   
+   To:
+   C:\Users\YOUR_USERNAME\.cursor\extensions\jb-dark-theme
+
+4. Restart Cursor completely
+
+5. Press Ctrl+Shift+P
+   Type: "Preferences: Color Theme"
+   Select: "JB Dark"
+
+Method 2: Using PowerShell (FAST)
+
+1. Open PowerShell (right-click Start menu → Windows PowerShell)
+
+2. Run this command (replace YOUR_USERNAME):
+   
+   Copy-Item -Recurse "C:\Users\gianniperugini\repo\Themes" "$env:USERPROFILE\.cursor\extensions\jb-dark-theme"
+
+3. Restart Cursor
+
+4. Press Ctrl+Shift+P → "Preferences: Color Theme" → Select "JB Dark"
+
+Method 3: If you have the repo on your PC
+
+1. Navigate to where you have the repo on your PC
+2. Go to the Themes folder
+3. Copy it to: %USERPROFILE%\.cursor\extensions\jb-dark-theme
+   (You can type %USERPROFILE% in File Explorer address bar)
+
